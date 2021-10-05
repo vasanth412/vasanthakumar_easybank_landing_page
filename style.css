@@ -363,7 +363,7 @@ footer {
   .hero {
     background-image: url('./images/image-mockups.png'),
       url('./images/bg-intro-mobile.svg');
-    padding: 13rem 0 3rem 0;
+    padding: 10rem 0 3rem 0;
     background-position: 20px -135px, 0px -66px;
     background-size: 90% auto, 100%;
     text-align: center;
@@ -388,8 +388,9 @@ footer {
     text-align: center;
   }
 
-  .container .title {
-    font-size: 2.5rem;
+  .container .title,
+  .container_2 .cards {
+    font-size: 2.2rem;
   }
   .feature {
     flex-direction: column;
@@ -437,8 +438,13 @@ footer {
     margin: 0.5rem;
   }
 
-  .logo {
+  .footer .logo {
     margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .footer .social-media a {
+    margin: 0 0.5rem;
   }
 
   .footer .copyrights {
